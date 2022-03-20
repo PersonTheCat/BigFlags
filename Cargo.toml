@@ -1,0 +1,12 @@
+[package]
+name = "big_flags"
+version = "0.1.0"
+authors = ["Dalton Richardson <dalton.richardson@bettercloud.com>"]
+edition = "2018"
+
+[features]
+perf_test = []
+
+[dependencies]
+bitvec = "0.19.4"
+rand = "0.7"
